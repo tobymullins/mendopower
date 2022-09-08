@@ -1,13 +1,15 @@
 header {
    display: inline-flex;
    justify-content: center;
-   margin: auto;
-    
+   margin: auto; 
+
 }
 
 .phone {
    display: flex;
    text-align: right;
+   position: relative;
+   align-self: flex-end;
 }
 
 .container {
@@ -18,12 +20,20 @@ header {
 }
   
 .logo {
-   width: 400px;
+   width: 600px;
+   margin: 50px;
+   padding: 50px;
   }
 
 .container-left {
-   display: flexbox;
+   display:flexbox
    align-items: left;
+   max-width: 400px;
+   float: left;
+}
+
+.oem-logo {
+   max-width: 300px;
 }
 
 body {
@@ -35,4 +45,5 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
+   margin: 50px;
 }
