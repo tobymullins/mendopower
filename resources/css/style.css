@@ -1,13 +1,38 @@
 header {
    display: inline-flex;
    justify-content: center;
+   margin: auto;
+    
 }
 
+.phone {
+   display: flex;
+   text-align: right;
+}
+
+.container {
+   height: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+  
 .logo {
-   box-sizing: border-box;
+   width: 400px;
+  }
+
+.container-left {
+   display: flexbox;
+   align-items: left;
 }
 
 body {
-   background-color: aqua;
+   background-color: lightgray;
+   font-family: 'Roboto', sans-serif;
+}
 
+.heading, .sub-heading {
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
