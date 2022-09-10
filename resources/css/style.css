@@ -1,5 +1,5 @@
 header {
-   display: inline-flex;
+   display: flex;
    justify-content: center;
    margin: auto; 
 
@@ -9,7 +9,14 @@ header {
    display: flex;
    text-align: right;
    position: relative;
-   align-self: flex-end;
+   left: 500px;
+}
+
+.address {
+   display: flex;
+   text-align: left;
+   position:relative;
+   right: 500px;
 }
 
 .container {
@@ -30,6 +37,8 @@ header {
    align-items: left;
    max-width: 400px;
    float: left;
+   position: relative;
+   bottom: 450px;
 }
 
 .oem-logo {
