@@ -62,3 +62,9 @@ body {
    justify-content: center;
    margin: 50px;
 }
+
+.under-construction {
+   color: red;
+   padding: 50px;
+   text-align: center;
+}
