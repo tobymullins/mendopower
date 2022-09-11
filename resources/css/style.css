@@ -33,12 +33,12 @@ header {
   }
 
 .container-left {
-   display:flexbox
+   display:flexbox;
    align-items: left;
    max-width: 400px;
    float: left;
    position: relative;
-   bottom: 450px;
+   bottom: 750px;
 }
 
 .oem-logo {
@@ -48,6 +48,12 @@ header {
 body {
    background-color: lightgray;
    font-family: 'Roboto', sans-serif;
+}
+
+.headings {
+   max-width: 600px;
+   position: relative;
+   left: 450px;
 }
 
 .heading, .sub-heading {
