@@ -10,6 +10,8 @@ header {
    text-align: right;
    position: relative;
    left: 500px;
+   color:blue;
+   font-weight: 600;
 }
 
 .address {
@@ -17,6 +19,8 @@ header {
    text-align: left;
    position:relative;
    right: 500px;
+   color: blue;
+   font-weight: 600;
 }
 
 .container {
@@ -67,4 +71,26 @@ body {
    color: red;
    padding: 50px;
    text-align: center;
+}
+
+.nav {
+   align-self: flex-end;
+    
+}
+
+.button {
+   align-items: right;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   left: 800px;
+   margin: 50px;
+   bottom: 800px;
+   width: 200px;
+   height: 50px;
+   text-align: center;
+   background-color: blue;
+   color: white;
+   border-radius: 10%;
+   
 }
