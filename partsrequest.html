@@ -1,3 +1,9 @@
+<?php
+if($_POST["message"]) {
+    mail("tobymullins@mendopower.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en-US">
    <head>
@@ -16,7 +22,7 @@
          <h1 class="parts-heading">Parts Request</h1>
          <h4 class="parts-instruction">Please fill out all the fields below. Give as much detail as you can. We will email you an estimate for the parts and approximate lead time.</h4>
       </div>
-      <form>
+      <form method="post" action="contact.php">
          <ul>
             <li>
                <label for="first-name">First Name:</label>
@@ -64,7 +70,7 @@
             </li>
             <li class="button">
                <button type="submit">Submit</button>
-             </li>
+            </li>
          </ul>
       </form>
    </body>
