@@ -161,3 +161,7 @@ form {
    margin-left: 0.5em;
  }
  
+ .email {
+   font-style: italic;
+   color: blue;
+ }

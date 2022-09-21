@@ -1,10 +1,24 @@
 <?php
+
+
 if($_POST["message"]) {
-    mail("tobymullins@mendopower.com", "Form to email message", $_POST["message"], "From: an@email.address");
+
+
+mail("tobymullins@mendopower.com", "Parts Request",
+
+
+$_POST["Here is a parts request"]. "From: no-reply@mendopower.com");
+
+
 }
+
+
 ?>
 
+
+
 <!DOCTYPE html>
+
 <html lang="en-US">
    <head>
       <meta charset="utf-8">
@@ -22,7 +36,7 @@ if($_POST["message"]) {
          <h1 class="parts-heading">Parts Request</h1>
          <h4 class="parts-instruction">Please fill out all the fields below. Give as much detail as you can. We will email you an estimate for the parts and approximate lead time.</h4>
       </div>
-      <form method="post" action="contact.php">
+      <form method="post" action="textrequest.php">
          <ul>
             <li>
                <label for="first-name">First Name:</label>
