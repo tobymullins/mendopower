@@ -75,12 +75,6 @@ body {
    margin: 50px;
 }
 
-.under-construction {
-   color: red;
-   padding: 50px;
-   text-align: center;
-}
-
 .nav {
    align-self: flex-end;
     
@@ -91,7 +85,7 @@ body {
    display: flex;
    flex-direction: column;
    position: relative;
-   left: 800px;
+   left: 700px;
    margin: 50px;
    bottom: 800px;
    width: 200px;
@@ -99,7 +93,7 @@ body {
    text-align: center;
    background-color: blue;
    color: white;
-   border-radius: 10%;
+   border-radius: 20%;
    
 }
 
@@ -205,3 +199,6 @@ form {
  a :hover {
    background-color: lightgreen;
  }
+
+
+
