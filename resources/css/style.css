@@ -1,26 +1,34 @@
 header {
    display: flex;
    justify-content: center;
-   margin: auto; 
-
+   margin: 50px 100px 50px 100px; 
 }
 
 .phone {
    display: flex;
    text-align: right;
    position: relative;
-   left: 500px;
+   left: 300px;
    color:blue;
    font-weight: 600;
 }
 
+.info-email {
+   display: flex;
+   font-style: italic;
+   color: blue;
+   position: relative;
+   text-align: center;
+ }
+
 .address {
    display: flex;
-   text-align: left;
+   text-align: center;
    position:relative;
-   right: 500px;
+   right: 300px;
    color: blue;
    font-weight: 600;
+   
 }
 
 .container {
@@ -160,8 +168,40 @@ form {
       between the labels and their text fields */
    margin-left: 0.5em;
  }
- 
+
+ .equip-banner {
+   display: block;
+   text-align: center;
+   margin: 50 200 50 200;
+   position: relative;
+ }
+
+ #num {
+   font-style: italic;
+   color: orangered;
+   font-weight: 600;
+ }
+
  .email {
    font-style: italic;
-   color: blue;
+   color: orangered;
+ }
+
+ .em650-img {
+   width: 200px;
+   height: auto;
+   display: inline-flexbox;
+ }
+
+ .em650-list {
+   margin: 50px 100px 200px 100px;
+ }
+
+ #price {
+   color: green;
+   font-weight: bolder;
+ }
+ 
+ a :hover {
+   background-color: lightgreen;
  }
