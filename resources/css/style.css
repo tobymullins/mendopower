@@ -181,13 +181,13 @@ form {
    color: orangered;
  }
 
- .em650-img {
+ .forsale-img {
    width: 200px;
    height: auto;
    display: inline-flexbox;
  }
 
- .em650-list {
+ .description {
    margin: 50px 100px 200px 100px;
  }
 
@@ -206,6 +206,12 @@ form {
    max-width: 800px;
    justify-content: right;
    margin: auto;
-   
-}
+ }
 
+ .item-forsale {
+  border-top: 3px solid blue;
+  border-bottom: 3px solid blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+ }
+  
