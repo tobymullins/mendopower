@@ -200,5 +200,12 @@ form {
    background-color: lightgreen;
  }
 
-
+.post-container {
+   margin-top: 100px;
+   display: flex;
+   max-width: 800px;
+   justify-content: right;
+   margin: auto;
+   
+}
 
